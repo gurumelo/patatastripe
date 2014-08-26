@@ -39,7 +39,7 @@ if (isset($_GET) && count($_GET) == 2 && isset($_GET['fritas']) && !empty($_GET[
 			
 			
 			// This identifies your website in the createToken call below
-			Stripe.setPublishableKey('tu llave pública');
+			Stripe.setPublishableKey('TU LLAVE PÚBLICA');
 			var stripeResponseHandler = function(status, response) {
 				var $form = $('#payment-form');
 	 
